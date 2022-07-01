@@ -6,6 +6,18 @@ body{
     height: 700;
 }
 
+#header{
+    text-align: center;
+    text-decoration: none;
+}
+
+#top{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    padding: 8px;
+}
+
 #title{
     color: white;
     font-family: 'Roboto';
