@@ -1,1 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body{
+    background-color: blue;
+    width: auto;
+    height: 700;
+}
+
+#title{
+    color: whitesmoke;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 300px;
+    font-weight: 300;
+}
+
+#firma{
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 100;
+}
