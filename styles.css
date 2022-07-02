@@ -1,21 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
-    background-color: blue;
+    background-color: #03045e;
     width: auto;
-    height: 700;
-}
+} 
 
-#header{
-    text-align: center;
+/*Barra de navegación*/
+
+#topnav{
+    font-family: 'Roboto';
+    text-align: right;
     text-decoration: none;
+    padding: 12px;
+    padding-right: 33px;
 }
 
-#top{
+.butt{
     color: white;
     text-decoration: none;
-    font-weight: 900;
     padding: 8px;
+}
+
+.butt:hover{
+    color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+}
+
+/*Página de inicio*/
+
+#mater{
+    height: 100vh;
 }
 
 #title{
@@ -23,13 +37,38 @@ body{
     font-family: 'Roboto';
     text-align: center;
     font-size: 288px;
-    font-weight: 300;
+    font-weight: 900;
 }
+
+#X{
+    color: white;
+}
+
+#X:hover{
+    color: #48CAE4;
+}
+
+/*Segundo bloque*/
+
+#sec{
+    background-color: white;
+    height: 70vh;
+    width: 800px;
+}
+
+#desc{
+    color: #0096C7;
+    font-family: 'Roboto';
+    font-size: 14px;
+    text-align: center;
+}
+
+/*Pie de página*/
 
 #firma{
     color: white;
     font-family: 'Roboto';
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 100;
 }
