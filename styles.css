@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
-    background-color: #03045e;
+    background-color: #072ac8;
     width: auto;
 } 
 
@@ -11,14 +11,14 @@ body{
     font-family: 'Roboto';
     text-align: right;
     text-decoration: none;
-    padding: 12px;
-    padding-right: 33px;
+    padding: 8px;
+    padding-right: 21px;
 }
 
 .butt{
-    color: white;
+    color: rgb(245, 245, 245);
     text-decoration: none;
-    padding: 8px;
+    padding: 5px;
 }
 
 .butt:hover{
@@ -33,7 +33,7 @@ body{
 }
 
 #title{
-    color: white;
+    color: rgb(245, 245, 245);
     font-family: 'Roboto';
     text-align: center;
     font-size: 288px;
@@ -41,34 +41,160 @@ body{
 }
 
 #X{
-    color: white;
+    color: rgb(245, 245, 245);
 }
 
 #X:hover{
-    color: #48CAE4;
+    color: red;
+}
+
+#arrow{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; bottom: 44px;
+}
+
+#arrow2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
 }
 
 /*Segundo bloque*/
 
-#sec{
-    background-color: white;
+#cubo1{
+    background-color: rgb(245, 245, 245);
     height: 70vh;
     width: 800px;
+    position: relative; left: 70px; bottom: 70px;
 }
 
-#desc{
-    color: #0096C7;
+#cubo2{
+    background-color: rgb(245, 245, 245);
+    height: 70vh;
+    width: 800px;
+    position: relative; left: 950px; bottom: 902px;
+}
+
+#titulo{
+    color: rgb(050, 050, 050);
     font-family: 'Roboto';
-    font-size: 14px;
+    font-size: 125px;
     text-align: center;
+    font-weight: bolder;
+    position: relative; top: 2px;
+}
+
+#gris{
+    background-color: rgba(128, 128, 128, 0.12);
+    width: 600px;
+    height: 400px;
+    position: relative; left: 100px; bottom: 160px;
+}
+
+#name{
+    font-family: 'Roboto';
+    font-size: 15px;
+    position: relative; left: 110px; top: 250px;
+    font-weight: 600;
+    color: rgb(050, 050, 050);
+}
+
+#container{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Roboto';
+}
+
+#descripcion{
+    width: 590px;
+    text-align: center;
+    position: relative; left: 105px; bottom: 130px;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(050, 050, 050);
+}
+
+#plus{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 473px;
+    bottom: 1320px;
+    height: 130px;
+}
+
+/*Segundo bloque*/
+
+#lines{
+    height: 70vh;
+    text-align: center;
+    position: relative; top: 330px;
+}
+
+#link{
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-size: 120px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    position: relative; bottom: 150px;
+    margin: 300px;
+    text-align: center;
+}
+
+/*Tercer bloque*/
+
+#formulario{
+    background-color: rgba(0, 0, 0, 0.432);
+    height: 60vh;
+    position: relative; top: 283px;
+    margin: 30px -20px 20px;
+}
+
+#form{
+    align-items: center;
+    text-align: center;
+    color: rgb(245, 245, 245);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*Pie de página*/
 
 #firma{
-    color: white;
+    color: rgb(245, 245, 245);
     font-family: 'Roboto';
-    text-align: center;
-    font-size: 12px;
-    font-weight: 100;
+    text-align: left;
+    font-size: 100px;
+    font-weight: 900;
+    position: relative;
+    top: 100px;
+}
+
+/*Extra items*/
+
+#yellow{
+    color: #ffc600;
+    font-weight: 900;
+}
+
+#barra{
+    border: 7px solid rgb(245, 245, 245);
+    position: relative; top: 320px;
+    margin: 30px -20px 20px;
+}
+
+#barra2{
+    border: 7px solid rgb(245, 245, 245);
+    position: relative; top: 235px;
+    margin: 30px -20px 20px;
 }
