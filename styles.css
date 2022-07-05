@@ -42,25 +42,17 @@ body{
 
 #X{
     color: rgb(245, 245, 245);
+    animation-name: movimiento;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
-#X:hover{
-    color: red;
-}
 
-#arrow{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative; bottom: 44px;
-}
-
-#arrow2{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 100px;
+@keyframes movimiento {
+    10% {color: rgb(245, 245, 245);}
+    50% {color: #072ac8;}
+    90% {color: rgb(245, 245, 245);}
 }
 
 /*Segundo bloque*/
@@ -118,16 +110,6 @@ body{
     color: rgb(050, 050, 050);
 }
 
-#plus{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    left: 473px;
-    bottom: 1320px;
-    height: 130px;
-}
-
 /*Segundo bloque*/
 
 #lines{
@@ -173,11 +155,15 @@ body{
 #firma{
     color: rgb(245, 245, 245);
     font-family: 'Roboto';
-    text-align: left;
-    font-size: 100px;
-    font-weight: 900;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
     position: relative;
-    top: 100px;
+    top: 101px;
+}
+
+#footer{
+    padding: 100px;
 }
 
 /*Extra items*/
@@ -197,4 +183,31 @@ body{
     border: 7px solid rgb(245, 245, 245);
     position: relative; top: 235px;
     margin: 30px -20px 20px;
+}
+
+#arrow{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; bottom: 44px;
+    width: 8%;
+}
+
+#arrow2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
+    width: 8%;
+}
+
+#plus{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 473px;
+    bottom: 1305px;
+    height: 80px;
 }
