@@ -44,10 +44,14 @@ body{
     color: rgb(245, 245, 245);
     animation-name: movimiento;
     animation-timing-function: ease-in-out;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
+    animation-delay: 4.20s;
 }
 
+#X:hover{
+    color: #ffc600;
+}
 
 @keyframes movimiento {
     10% {color: rgb(245, 245, 245);}
@@ -169,6 +173,34 @@ body{
 /*Extra items*/
 
 #yellow{
+    color: #ffc600;
+    font-weight: 900;
+    animation-name: tictac;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#yellow2{
+    color: #ffc600;
+    font-weight: 900;
+    animation-name: tictac2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tictac{
+    30% {color: #ffc600;}
+    50% {color: #072ac8;}
+    70% {color: #ffc600;}
+}
+
+@keyframes tictac2{
+    50% {color: #ffc600;}
+    70% {color: #072ac8;}
+    90% {color: #ffc600;}
+}
+
+#yelow{
     color: #ffc600;
     font-weight: 900;
 }
